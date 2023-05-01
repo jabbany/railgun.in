@@ -1,0 +1,91 @@
+/**
+ Color Scheme from https://github.com/hardhackerlabs/themes
+**/
+
+body {
+  background-color: #282433;
+  color: #eee9fc;
+  font-family: monospace;
+}
+
+*::selection {
+  background-color: #3f3951;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #e965a5;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+header {
+  padding: 10px 0 10px 0;
+  border-bottom: 1px solid 	#3f3951;
+}
+
+footer {
+  padding: 10px 0 10px 0;
+  border-top: 1px solid 	#3f3951;
+}
+
+strong, b {
+  color: #b3f4f3;
+}
+
+p {
+  font-size: 1rem;
+}
+
+a {
+  color: #e192ef;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+code {
+  background-color: #3f3951;
+  color: #b1f2a7;
+}
+
+blockquote {
+  background: #3f3951;
+  color: #938aad;
+  padding: 20px;
+}
+
+.container {
+  max-width: 960px;
+  padding-top: 1rem!important;
+  padding-bottom: 1rem!important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero {
+  padding: 30px 15px 30px 15px;
+  text-align: center;
+}
+
+.hero > h1 {
+  font-weight: 400;
+  font-size: 3.5rem;
+}
+
+.hero > h2 {
+  font-size: 2.5rem;
+}
+
+.hero > .desc-box {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.right {
+  float: right;
+}
